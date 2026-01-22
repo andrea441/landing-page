@@ -72,9 +72,10 @@ button {
     background-color: #3882F6;
     color: white;
     flex-basis: 30px;
-    width: 100px;
+    padding: 8px 30px;
     border-radius: 5px;
     border: none;
+    font-size: 16px;
 }
 
 .second-section {
@@ -82,17 +83,19 @@ button {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding: 30px;
 }
 
 .information-title {
     font-size: 36px;
     font-weight: 900;
-    color: #1F2937
+    color: #1F2937;
+    margin-bottom: 30px;
 }
 
 .cards {
     display: flex;
-    gap: 28px;
+    gap: 40px;
     justify-content: center;
 }
 
@@ -104,8 +107,9 @@ button {
 }
 
 .card img {
-    border: 5px solid black;
-    border-radius: 5px;
+    border: 5px solid #3882F6;;
+    border-radius: 16px;
+    width: 100%;
 }
 
 .card p {
@@ -117,6 +121,7 @@ button {
     background-color: #e5e7e5;
     flex-direction: column;
     align-items: center;
+    padding: 100px 350px;
 }
 
 .quote-text {
@@ -127,6 +132,37 @@ button {
 
 .fourth-section {
     display: flex;
+    padding: 100px 300px;
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    box-sizing: border-box;
+    flex: 1;
+    background-color: #3882F6;
+    border-radius: 10px;
+    padding: 50px;
+}
+
+.banner-text-section {
+    color: #F9FAF8;
+}
+
+.banner-title {
+    font-weight: 700;
+    margin: 0;
+    font-size: 20px;
+}
+
+.banner-second {
+    margin: 5px 0px;
+}
+
+.banner-button-section button{
+    border: 3px solid white;
 }
 
 .footer {
